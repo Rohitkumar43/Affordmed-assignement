@@ -1,5 +1,5 @@
 const UrlService = require('../services/urlService');
-const { validateUrl, validateShortcode, validateValidity } = require('../utils/validators');
+const { validateUrl, validateShortcode, validateValidity } = require('../utils/validator');
 
 class UrlController {
   static async createShortUrl(req, res) {

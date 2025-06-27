@@ -1,4 +1,4 @@
-const Url = require('../models/urlModel');
+const Url = require('../model/urlModel');
 const { generateUniqueShortcode } = require('../utils/shortcodeGenerator');
 
 class UrlService {

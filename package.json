@@ -4,8 +4,8 @@
   "description": "HTTP URL Shortener Microservice",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "AffordMed Backend Developer",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "helmet": "^8.1.0",
     "install": "^0.13.0",
     "mongoose": "^8.16.1",
-    "nanoid": "^5.1.5",
+    "nanoid": "^3.3.11",
     "npm": "^10.9.3",
     "validator": "^13.15.15"
   }
