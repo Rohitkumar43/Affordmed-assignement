@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "HTTP URL Shortener Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AffordMed Backend Developer",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
+    "install": "^0.13.0",
+    "mongoose": "^8.16.1",
+    "nanoid": "^5.1.5",
+    "npm": "^10.9.3",
+    "validator": "^13.15.15"
+  }
+}
